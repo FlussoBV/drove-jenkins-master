@@ -46,7 +46,7 @@ build-monitor-plugin:1.11+build.201701152243
 ci-game:1.26
 jenkinslint:0.5.0
 android-emulator:2.15
-mailer:1.18
+mailer:1.19
 cvs:2.13
 sse-gateway:1.12
 ssh-slaves:1.12
