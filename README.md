@@ -15,3 +15,5 @@ The list if plugins can be found in plugins.txt.
 
 If you're unsure which plugins you really want, you can create a clean Jenkins 2 container.
 Then install the plugins you want and use the get-plugins.sh script to generate the plugins.txt file yourself.
+
+You can then use the plugin-list-to-install-command.sh to transform it into the new style of plugin installation.
