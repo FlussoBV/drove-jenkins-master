@@ -1,8 +1,8 @@
-FROM jenkinsci/jenkins:2.47-alpine
+FROM jenkinsci/jenkins:lts
 
 MAINTAINER Joost van der Griendt <joostvdg@gmail.com>
 LABEL authors="Joost van der Griendt <joostvdg@gmail.com>"
-LABEL version="1.0.0"
+LABEL version="1.1.0"
 LABEL description="Docker container for Jenkins Masters For Flusso Drove'"
 
 COPY executors.groovy /usr/share/jenkins/ref/init.groovy.d/executors.groovy
