@@ -117,7 +117,7 @@ blueocean-git-pipeline:1.0.0-b18
 durable-task:1.13
 BlazeMeterJenkinsPlugin:2.7
 metrics:3.1.2.9
-stashNotifier:1.11.4 (private-a8108970-joost)
+stashNotifier:1.11.4
 workflow-scm-step:2.3
 pipeline-model-api:0.8.2
 windows-slaves:1.2
