@@ -2,8 +2,8 @@ FROM jenkinsci/jenkins:lts
 
 MAINTAINER Joost van der Griendt <joostvdg@gmail.com>
 LABEL authors="Joost van der Griendt <joostvdg@gmail.com>"
-LABEL version="1.3.0"
-LABEL description="Docker container for Jenkins Masters For Flusso Drove'"
+LABEL version="2.46.2-1"
+LABEL description="Docker container for Jenkins Master For Docker Swarm"
 
 COPY executors.groovy /usr/share/jenkins/ref/init.groovy.d/executors.groovy
 RUN echo 2.0 > /usr/share/jenkins/ref/jenkins.install.UpgradeWizard.state
