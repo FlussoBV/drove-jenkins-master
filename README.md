@@ -1,5 +1,9 @@
 # Jenkins Master for Flusso Drove
 
+[![GitHub release](https://img.shields.io/github/release/FlussoBV/drove-jenkins-master.svg)]()
+[![license](https://img.shields.io/github/license/FlussoBV/drove-jenkins-master.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/FlussoBV/drove-jenkins-master.svg)]()
+
 ## Flusso Drove
 
 See the [Flusso Drove](https://github.com/FlussoBV/drove) project.
