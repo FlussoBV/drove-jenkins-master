@@ -4,6 +4,7 @@ extra_java_opts=( \
   '-Djenkins.install.runSetupWizard=false -Djenkins.model.Jenkins.slaveAgentPort=50000' \
   '-Djenkins.model.Jenkins.slaveAgentPortEnforce=true' \
   "-Dio.jenkins.dev.security.allowRunsOnMaster=${CONF_ALLOW_RUNS_ON_MASTER}" \
+  "-Dio.jenkins.dev.security.createAdmin=${CONF_CREATE_ADMIN}" \
   '-Dhudson.model.LoadStatistics.clock=1000' \
   '-server -XX:+AlwaysPreTouch'
 )
