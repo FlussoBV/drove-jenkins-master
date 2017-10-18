@@ -1,8 +1,8 @@
-FROM jenkins/jenkins:2.73.1-alpine
+FROM jenkins/jenkins:2.73.2-slim
 
 MAINTAINER Joost van der Griendt <joostvdg@gmail.com>
 LABEL authors="Joost van der Griendt <joostvdg@gmail.com>"
-LABEL version="2.73.1-1"
+LABEL version="2.73.2-1"
 LABEL description="Docker container for Jenkins Master For Docker Swarm"
 
 COPY executors.groovy /usr/share/jenkins/ref/init.groovy.d/executors.groovy
